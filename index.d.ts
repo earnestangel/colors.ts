@@ -5,10 +5,10 @@
 
 export interface Color {
     (text: string): string;
-
+    
     strip: Color;
     stripColors: Color;
-
+    
     black: Color;
     red: Color;
     green: Color;
@@ -19,7 +19,15 @@ export interface Color {
     white: Color;
     gray: Color;
     grey: Color;
-
+    
+    brightRed: Color;
+    brightGreen: Color;
+    brightYellow: Color;
+    brightBlue: Color;
+    brightMagenta: Color;
+    brightCyan: Color;
+    brightWhite: Color;
+    
     bgBlack: Color;
     bgRed: Color;
     bgGreen: Color;
@@ -28,7 +36,17 @@ export interface Color {
     bgMagenta: Color;
     bgCyan: Color;
     bgWhite: Color;
-
+    bgGray: Color;
+    bgGrey: Color;
+    
+    bgBrightRed: Color,
+    bgBrightGreen: Color,
+    bgBrightYellow: Color,
+    bgBrightBlue: Color,
+    bgBrightMagenta: Color,
+    bgBrightCyan: Color,
+    bgBrightWhite: Color,
+    
     reset: Color;
     bold: Color;
     dim: Color;
@@ -37,7 +55,7 @@ export interface Color {
     inverse: Color;
     hidden: Color;
     strikethrough: Color;
-
+    
     rainbow: Color;
     zebra: Color;
     america: Color;
@@ -95,7 +113,7 @@ declare global {
     interface String {
         strip: string;
         stripColors: string;
-
+        
         black: string;
         red: string;
         green: string;
@@ -106,7 +124,15 @@ declare global {
         white: string;
         gray: string;
         grey: string;
-
+        
+        brightRed: string;
+        brightGreen: string;
+        brightYellow: string;
+        brightBlue: string;
+        brightMagenta: string;
+        brightCyan: string;
+        brightWhite: string;
+        
         bgBlack: string;
         bgRed: string;
         bgGreen: string;
@@ -115,7 +141,17 @@ declare global {
         bgMagenta: string;
         bgCyan: string;
         bgWhite: string;
-
+        bgGray: string;
+        bgGrey: string;
+        
+        bgBrightRed: string,
+        bgBrightGreen: string,
+        bgBrightYellow: string,
+        bgBrightBlue: string,
+        bgBrightMagenta: string,
+        bgBrightCyan: string,
+        bgBrightWhite: string,
+        
         reset: string;
         // @ts-ignore
         bold: string;
@@ -125,7 +161,7 @@ declare global {
         inverse: string;
         hidden: string;
         strikethrough: string;
-
+        
         rainbow: string;
         zebra: string;
         america: string;
