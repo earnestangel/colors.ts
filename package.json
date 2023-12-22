@@ -1,16 +1,20 @@
 {
-    "name": "colors",
-    "description": "get colors in your node.js console",
-    "version": "1.4.44-liberty-2",
+    "name": "colors.ts",
+    "description": "Fork of https://github.com/Marak/colors.js, but with better Typescript compatibility",
+    "version": "1.4.45",
     "author": "Marak Squires",
     "contributors": [
         {
             "name": "DABH",
             "url": "https://github.com/DABH"
+        },
+        {
+            "name": "Earnest Angel",
+            "url": "https://github.com/earnestangel"
         }
     ],
-    "homepage": "https://github.com/Marak/colors.js",
-    "bugs": "https://github.com/Marak/colors.js/issues",
+    "homepage": "https://github.com/earnestangel/colors.ts",
+    "bugs": "https://github.com/earnestangel/colors.ts/issues",
     "keywords": [
         "ansi",
         "terminal",
@@ -18,7 +22,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "http://github.com/Marak/colors.js.git"
+        "url": "https://github.com/earnestangel/colors.ts.git"
     },
     "license": "MIT",
     "scripts": {
