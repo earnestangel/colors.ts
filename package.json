@@ -1,5 +1,5 @@
 {
-    "name": "colors.ts",
+    "name": "@ririkoai/colors.ts",
     "description": "Fork of https://github.com/Marak/colors.js, but with better Typescript compatibility",
     "version": "1.4.45",
     "author": "Marak Squires",
