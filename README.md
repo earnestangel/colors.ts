@@ -1,8 +1,10 @@
-# colors.js
-[![Build Status](https://travis-ci.org/Marak/colors.js.svg?branch=master)](https://travis-ci.org/Marak/colors.js)
-[![version](https://img.shields.io/npm/v/colors.svg)](https://www.npmjs.org/package/colors)
-[![dependencies](https://david-dm.org/Marak/colors.js.svg)](https://david-dm.org/Marak/colors.js)
-[![devDependencies](https://david-dm.org/Marak/colors.js/dev-status.svg)](https://david-dm.org/Marak/colors.js#info=devDependencies)
+# @ririkoai/colors.ts
+[![version](https://img.shields.io/npm/v/@ririkoai/colors.ts.svg)](https://www.npmjs.org/package/@ririkoai/colors.ts)
+
+## Begin original documentations:
+
+| ⭐ This is a fork of https://github.com/Marak/colors.js created to fix some Typescript issue |
+| --- |
 
 Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  Please open Issues to provide feedback, and check the `develop` branch for the latest bleeding-edge updates.
 
