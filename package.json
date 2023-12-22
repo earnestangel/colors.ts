@@ -1,49 +1,52 @@
 {
-    "name": "@ririkoai/colors.ts",
-    "description": "Fork of https://github.com/Marak/colors.js, but with better Typescript compatibility",
-    "version": "1.4.45",
-    "author": "Marak Squires",
-    "contributors": [
-        {
-            "name": "DABH",
-            "url": "https://github.com/DABH"
-        },
-        {
-            "name": "Earnest Angel",
-            "url": "https://github.com/earnestangel"
-        }
-    ],
-    "homepage": "https://github.com/earnestangel/colors.ts",
-    "bugs": "https://github.com/earnestangel/colors.ts/issues",
-    "keywords": [
-        "ansi",
-        "terminal",
-        "colors"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/earnestangel/colors.ts.git"
+  "name": "@ririkoai/colors.ts",
+  "description": "Fork of https://github.com/Marak/colors.js, but with better Typescript compatibility",
+  "version": "1.4.45",
+  "author": "Marak Squires",
+  "contributors": [
+    {
+      "name": "DABH",
+      "url": "https://github.com/DABH"
     },
-    "license": "MIT",
-    "scripts": {
-        "lint": "eslint . --fix",
-        "test": "node tests/basic-test.js && node tests/safe-test.js"
-    },
-    "engines": {
-        "node": ">=0.1.90"
-    },
-    "main": "lib/index.js",
-    "files": [
-        "examples",
-        "lib",
-        "LICENSE",
-        "safe.js",
-        "themes",
-        "index.d.ts",
-        "safe.d.ts"
-    ],
-    "devDependencies": {
-        "eslint": "^5.2.0",
-        "eslint-config-google": "^0.11.0"
+    {
+      "name": "Earnest Angel",
+      "url": "https://github.com/earnestangel"
     }
+  ],
+  "homepage": "https://github.com/earnestangel/colors.ts",
+  "bugs": "https://github.com/earnestangel/colors.ts/issues",
+  "keywords": [
+    "ansi",
+    "terminal",
+    "colors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/earnestangel/colors.ts.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=0.1.90"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "examples",
+    "lib",
+    "LICENSE",
+    "safe.js",
+    "themes",
+    "index.d.ts",
+    "safe.d.ts"
+  ],
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-google": "^0.11.0"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }
