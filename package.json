@@ -1,7 +1,7 @@
 {
   "name": "@ririkoai/colors.ts",
   "description": "Fork of https://github.com/Marak/colors.js, but with better Typescript compatibility",
-  "version": "1.4.45",
+  "version": "1.4.46",
   "author": "Marak Squires",
   "contributors": [
     {
@@ -47,6 +47,7 @@
     "eslint-config-google": "^0.11.0"
   },
   "dependencies": {
+    "colors": "^1.4.0",
     "jest": "^29.7.0"
   }
 }
