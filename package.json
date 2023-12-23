@@ -1,9 +1,13 @@
 {
   "name": "@ririkoai/colors.ts",
-  "description": "Fork of https://github.com/Marak/colors.js, but with better Typescript compatibility",
-  "version": "1.4.46",
-  "author": "Marak Squires",
+  "description": "Fork of https://github.com/Marak/colors.js, but with better Typescript compatibility (and minus the flags and what not)",
+  "version": "1.5.0",
+  "author": "Earnest Angel",
   "contributors": [
+    {
+      "name": "Marak Squires",
+      "url": "https://github.com/Marak"
+    },
     {
       "name": "DABH",
       "url": "https://github.com/DABH"
